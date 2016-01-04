@@ -4,17 +4,17 @@ This application acts as a template for managing multiple websites that use much
 
 # BaseSite.php
 
-Compiles html code to be used in later scripts.
+Creates a wrapper for common HTML elements and inserts dynamic data based on the domain.
 
-This is useful for dynamically setting the CSS.
+This is useful for dynamically setting the title of each page.
 
 e.g...
 ```php
 <head>
-  <?php echo $site->html->css; ?>
+  <?php echo $site->html->title; ?>
 </head>
 ```
-Which will provide ```<link href='" . $site->cssFile . "' media='all' type='text/css' rel='stylesheet' />``` in our script.
+Which will provide ```<title>{{title}}</title>``` in our script.
 
 # ExampleSite1.php and ExampleSite2.php
 
