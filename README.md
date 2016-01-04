@@ -2,7 +2,7 @@
 
 This application acts as a template for managing multiple websites that use much of the same back-end.
 
-# BaseSite.php
+## BaseSite.php
 
 Creates a wrapper for common HTML elements and inserts dynamic data based on the domain.
 
@@ -16,15 +16,15 @@ e.g...
 ```
 Which will provide ```<title>{{title}}</title>``` in our script.
 
-# ExampleSite1.php and ExampleSite2.php
+## ExampleSite1.php and ExampleSite2.php
 
 Creates our website objects to be used in later scripts.
 
-# router.php
+## router.php
 
 This script checks the domain and sets up the environment according the server domain.
 
-# Usage
+## Usage
 ```php
 require "sites/router.php";
 
