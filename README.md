@@ -1,6 +1,6 @@
-# Application for managing multiple websites
+# Dynamic Website Application
 
-This application acts as a template for managing websites that use much of the same back-end.
+This application acts as a template for managing multiple websites that use much of the same back-end.
 
 # BaseSite.php
 
